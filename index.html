@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Alsadaat Traders — neighborhood grocery store in Mahria Land Sub Division Phase 2 near Awan Shareef, Attock. Punjab Ration Card services and all bank card payments accepted.">
+<title>Alsadaat Traders | Your Neighborhood Grocery Store</title>
+<style>
+:root{--green:#075b45;--green2:#0b7658;--gold:#f4c51d;--cream:#fffdf4;--ink:#18352d;--muted:#61736c;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f8fbf8;line-height:1.55}
+a{color:inherit;text-decoration:none}.top{background:var(--green);color:#fff;padding:9px 5%;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:.9rem}.nav{background:#fff;display:flex;align-items:center;justify-content:space-between;padding:15px 5%;position:sticky;top:0;z-index:10;box-shadow:0 2px 12px #0001}.brand{display:flex;align-items:center;gap:10px}.cart{font-size:35px}.brand strong{font-size:1.65rem;color:var(--green);display:block}.brand span{color:#d29f00;font-weight:800}.links{display:flex;gap:26px;font-weight:700}.links a:hover{color:var(--green2)}.btn{display:inline-block;background:var(--gold);color:#143a30;padding:12px 20px;border-radius:10px;font-weight:800;border:0;cursor:pointer}.hero{background:linear-gradient(105deg,#064c3d 0%,#087357 52%,#e9b91b 150%);color:#fff;padding:76px 5%;position:relative;overflow:hidden}.hero:after{content:"🛒";position:absolute;right:7%;bottom:-35px;font-size:230px;opacity:.08}.hero-inner{max-width:850px;position:relative;z-index:1}.eyebrow{letter-spacing:2px;font-weight:800;color:#ffe36a}.hero h1{font-size:clamp(2.5rem,6vw,5rem);line-height:1;margin:10px 0}.hero h1 span{color:var(--gold)}.hero p{font-size:1.15rem;max-width:700px}.tag{display:inline-block;background:var(--gold);color:#17483a;padding:9px 16px;border-radius:30px;font-weight:900;margin-top:12px}.section{padding:58px 5%;max-width:1250px;margin:auto}.section h2{text-align:center;font-size:2.2rem;margin:0 0 10px;color:var(--green)}.lead{text-align:center;color:var(--muted);max-width:750px;margin:0 auto 32px}.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.card{background:#fff;border-radius:16px;padding:24px 17px;text-align:center;box-shadow:0 5px 20px #17483a10;border:1px solid #e5eee9}.icon{font-size:2.3rem}.card h3{margin:9px 0;color:var(--green);font-size:1.05rem}.card p{margin:0;color:var(--muted);font-size:.92rem}.promos{display:grid;grid-template-columns:1fr 1fr;gap:22px}.promo{border-radius:18px;padding:30px;color:#fff;min-height:230px;display:flex;flex-direction:column;justify-content:center}.promo.ration{background:linear-gradient(135deg,#075b45,#0b8b67)}.promo.cards-pay{background:linear-gradient(135deg,#164e8a,#2879c7)}.promo h3{font-size:1.65rem;margin:0 0 8px}.promo .urdu{font-size:1.45rem;font-weight:800;direction:rtl}.promo strong{color:#ffe76b}.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product{background:#fff;border-radius:15px;padding:24px;border-left:5px solid var(--gold);box-shadow:0 4px 15px #0000000a}.product h3{margin-top:0;color:var(--green)}.about{display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:stretch}.about-box{background:#fff;border-radius:18px;padding:32px;box-shadow:0 5px 20px #0001}.values{background:#edf7f1}.contact{background:var(--green);color:#fff}.contact h2{color:#fff}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.contact-card{background:#ffffff12;border:1px solid #ffffff22;border-radius:15px;padding:22px}.contact-card h3{color:#ffe36a;margin-top:0}.footer{background:#043d30;color:#d9ebe4;text-align:center;padding:24px 5%;font-size:.9rem}.rtl{direction:rtl}.notice{background:#fff8d9;border:1px solid #f0d76b;padding:15px 18px;border-radius:12px;margin:22px auto;max-width:950px}.menu{display:none;background:none;border:0;font-size:28px;color:var(--green)}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr}.links{display:none}.menu{display:block}.nav.open .links{display:flex;position:absolute;top:72px;left:0;right:0;background:#fff;padding:20px 5%;flex-direction:column;box-shadow:0 8px 20px #0002}.promos{grid-template-columns:1fr}}
+@media(max-width:560px){.top{font-size:.78rem}.cards,.products{grid-template-columns:1fr}.hero{padding:55px 5%}.hero h1{font-size:2.7rem}.section{padding:45px 5%}}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div>📍 Mahria Land Sub Division Phase 2, Near Awan Shareef, Attock</div>
+  <div>🕘 Open Daily: 9:00 AM – 9:00 PM</div>
+  <div><em>We sell convenience at Alsadaat Traders</em></div>
+</div>
+
+<nav class="nav" id="nav">
+  <a class="brand" href="#home"><div class="cart">🛒</div><div><strong>Alsadaat <span>Traders</span></strong><small>Your Neighborhood Grocery Store</small></div></a>
+  <button class="menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+  <div class="links">
+    <a href="#home">Home</a><a href="#services">Services</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">WELCOME TO ALSADAAT TRADERS</div>
+    <h1>Your local store for <span>everyday convenience.</span></h1>
+    <p>Quality groceries, everyday essentials, Punjab Ration Card services and convenient bank-card payments — serving the local community in Mahria Land Sub Division Phase 2 near Awan Shareef, Attock.</p>
+    <a class="btn" href="#services">Explore Our Services</a>
+    <div class="tag">We sell convenience at Alsadaat Traders</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="cards">
+    <div class="card"><div class="icon">🛍️</div><h3>Groceries</h3><p>Everyday essentials for your household.</p></div>
+    <div class="card"><div class="icon">💳</div><h3>All Bank Cards</h3><p>We accept all bank cards for convenient payments.</p></div>
+    <div class="card"><div class="icon">🟢</div><h3>Punjab Ration Card</h3><p>Services and assistance for Punjab Ration Card customers.</p></div>
+    <div class="card"><div class="icon">🍪</div><h3>Snacks & Biscuits</h3><p>Popular kids' snacks, candies and biscuits.</p></div>
+    <div class="card"><div class="icon">🧺</div><h3>Ration Essentials</h3><p>Atta, ghee, chawal, daal, maida, sooji and sugar.</p></div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <p class="lead">We focus on making everyday shopping simple, accessible and convenient for our neighborhood.</p>
+  <div class="promos">
+    <div class="promo ration">
+      <div class="urdu">پنجاب راشن کارڈ ہولڈرز کے لیے راشن بالکل مفت!</div>
+      <h3>Punjab Ration Card Services</h3>
+      <p>Customers can use their Punjab Ration Card at Alsadaat Traders for eligible ration services.</p>
+      <p><strong>Normal days:</strong> ration worth Rs. 3,000<br><strong>Ramzan:</strong> ration worth Rs. 10,000</p>
+    </div>
+    <div class="promo cards-pay">
+      <div class="urdu">ہم تمام بینک کارڈز قبول کرتے ہیں</div>
+      <h3>All Bank Cards Accepted</h3>
+      <p>Pay conveniently with your bank card. Card payments are accepted at Alsadaat Traders.</p>
+      <p>Convenient • Simple • Secure</p>
+    </div>
+  </div>
+  <div class="notice"><strong>Punjab Ration Card information:</strong> Eligibility and government-program requirements can change. For the latest eligibility and registration details, please check the current official Punjab program guidance or ask us in-store.</div>
+</section>
+
+<section class="section" id="products">
+  <h2>What We Stock</h2>
+  <p class="lead">A practical range of fast-moving everyday products, with a focus on convenience and household needs.</p>
+  <div class="products">
+    <div class="product"><h3>🌾 Ration & Staples</h3><p>Atta, ghee, chawal, daal, maida, sooji, sugar and other essential grocery items.</p></div>
+    <div class="product"><h3>🍪 Snacks & Biscuits</h3><p>Kids' snacks, candies, biscuits, chips and other popular everyday treats.</p></div>
+    <div class="product"><h3>🥤 Cold Drinks & Juices</h3><p>Cold drinks, juices and everyday beverages.</p></div>
+    <div class="product"><h3>🧴 Household Essentials</h3><p>Cleaning, personal-care and other household-use products.</p></div>
+    <div class="product"><h3>🥛 Dairy & Chilled Items</h3><p>Selected dairy and chilled grocery products, according to current stock.</p></div>
+    <div class="product"><h3>🛒 Everyday Convenience</h3><p>A neighborhood-focused assortment designed around regular customer needs.</p></div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="about">
+    <div class="about-box">
+      <h2 style="text-align:left">About Alsadaat Traders</h2>
+      <p>Alsadaat Traders is a local grocery/kiryana store serving the community in <strong>Mahria Land Sub Division Phase 2 near Awan Shareef, Attock</strong>.</p>
+      <p>Our approach is simple: keep useful everyday products available, maintain practical inventory, and make shopping easier for our customers.</p>
+      <p>With around <strong>4 years of service</strong>, we aim to build a lasting local retail legacy through convenience, reliable service and attention to customer needs.</p>
+    </div>
+    <div class="about-box values">
+      <h2 style="text-align:left">Our Retail Values</h2>
+      <p>✓ Convenience for the neighborhood</p>
+      <p>✓ Useful everyday inventory</p>
+      <p>✓ Data-informed stock management</p>
+      <p>✓ Accessible payment options</p>
+      <p>✓ Support for Punjab Ration Card services</p>
+      <p>✓ Friendly local customer service</p>
+    </div>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <h2>Visit Alsadaat Traders</h2>
+  <p class="lead" style="color:#d9ebe4">Drop by for everyday groceries, ration essentials, Punjab Ration Card services and convenient card payments.</p>
+  <div class="contact-grid">
+    <div class="contact-card"><h3>📍 Location</h3><p>Mahria Land Sub Division Phase 2<br>Near Awan Shareef<br>Attock, Punjab, Pakistan</p></div>
+    <div class="contact-card"><h3>🕘 Store Hours</h3><p>Open daily<br><strong>9:00 AM – 9:00 PM</strong></p></div>
+    <div class="contact-card"><h3>💳 Payments & Services</h3><p>All bank cards accepted<br>Punjab Ration Card services available</p></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <strong>Alsadaat Traders</strong> — We sell convenience at Alsadaat Traders<br>
+  Mahria Land Sub Division Phase 2, Near Awan Shareef, Attock • Open daily 9 AM–9 PM<br>
+  © 2026 Alsadaat Traders. All rights reserved.
+</footer>
+
+<script>
+document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>document.getElementById('nav').classList.remove('open')));
+</script>
+</body>
+</html>
